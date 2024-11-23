@@ -1,0 +1,28 @@
+# Go build artifacts
+/bin
+/pkg
+/*.exe
+/*.test
+/*.out
+
+# Dependency directories
+/vendor/
+
+# IDE and editor folders and files
+.idea/
+.vscode/
+*.swp
+
+# SQLite database file (or any other DB files)
+*.db
+*.sqlite
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go module files
+go.sum
